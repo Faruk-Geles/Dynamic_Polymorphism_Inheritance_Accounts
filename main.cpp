@@ -66,28 +66,6 @@ int main()
     Account *p1 = new Savings_Account();
     std::cout << *p1 <<std::endl;
     delete p1;
-    
-    cout <<"\n================================"<<endl;
-    
-    //Account *p1 = new Account();
-    //Account *p2 = new Savings_Account();
-    //Account *p3 = new Checking_Account("Larry");
-    //Account *p4 = new Trust_Account("Moe",2000);
-    
-    //Accounts
-    //vector<Account *> accounts={p2,p3,p4};
-    //vector <Account*> accounts;
-    //accounts.push_back( &Account{})
-    //accounts.push_back(&Account{"Larry"});
-    //accounts.push_back(&Account{"Moe",2000});
-    //accounts.push_back(&Account{"Curly",5000});
-    //display(accounts);
-    
-    //delete p1;
-    //delete p2;
-    //delete p3;
-    
-    
     */
     
     
