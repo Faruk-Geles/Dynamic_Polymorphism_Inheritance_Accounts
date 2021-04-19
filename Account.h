@@ -4,8 +4,10 @@
 #include <iostream>
 #include <string>
 #include "I_Printable.h"
+#include "IllegalBalanceException.h"
 
-class Account : public I_Printable {
+//Abstract class
+class Account: public I_Printable, public IllegalBalanceException {
 private:
     static constexpr const char *name_def="Unnamed Account ";
     static constexpr  double balance_def = 0.0;  
